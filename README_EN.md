@@ -36,18 +36,28 @@ Analyze recent interaction trends: emotional trajectory, topic shifts, potential
 
 ### Install
 
-**One-click (recommended):**
-
-In Claude Code, paste:
-```
-/plugin install 247547131aka-hue/now-skill
-```
-
-**Manual install:**
+**Method 1: Claude Code (recommended)**
 
 ```bash
 git clone https://github.com/247547131aka-hue/now-skill ~/.claude/skills/now-skill
 ```
+
+Update: `cd ~/.claude/skills/now-skill && git pull`
+
+**Method 2: Project-level**
+
+```bash
+mkdir -p .claude/skills
+git clone https://github.com/247547131aka-hue/now-skill .claude/skills/now-skill
+```
+
+**Method 3: Claude.ai (web)**
+
+Skills mechanism not supported — copy SKILL.md content into conversation and follow instructions manually.
+
+**Method 4: Other Agents (Cursor / Cline / Codex etc.)**
+
+Skill/Plugin mechanisms vary by platform. Adapt `SKILL.md` + `prompts/` as reference.
 
 ### Create
 
