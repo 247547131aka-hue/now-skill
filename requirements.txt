@@ -1,0 +1,5 @@
+# Python dependencies (optional enhancements)
+# Core functionality uses stdlib only
+
+# For full EXIF extraction from photos:
+Pillow>=10.0.0
