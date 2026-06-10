@@ -36,8 +36,17 @@ Analyze recent interaction trends: emotional trajectory, topic shifts, potential
 
 ### Install
 
+**One-click (recommended):**
+
+In Claude Code, paste:
+```
+/plugin install 247547131aka-hue/now-skill
+```
+
+**Manual install:**
+
 ```bash
-git clone https://github.com/<your-username>/now-skill ~/.claude/skills/now-skill
+git clone https://github.com/247547131aka-hue/now-skill ~/.claude/skills/now-skill
 ```
 
 ### Create
